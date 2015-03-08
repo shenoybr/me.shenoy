@@ -1,4 +1,3 @@
 baseurl = "http://me.shenoy/"
 languageCode = "en-us"
 title = "Rajesh Shenoy"
-theme = "hugo-uno"
