@@ -1,3 +1,10 @@
 baseurl = "http://me.shenoy/"
 languageCode = "en-us"
 title = "Rajesh Shenoy"
+theme = "mysore"
+author = "Rajesh Shenoy"
+copyright = "©2015 Rajesh Shenoy. <a href=\"http://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
+
+[Params]
+author = "Rajesh Shenoy"
+github = "shenoybr"
