@@ -1,2 +1,15 @@
-{{ partial "header.html" }}
-{{ partial "footer.html" }}
+{{ partial "header.html" . }}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+        {{ partial "sidebar.html" . }}
+        </div>
+        <div class="col-md-9">
+            <p>
+            Test
+            </p>
+        </div>
+
+    </div>
+</div>
+{{ partial "footer.html" . }}

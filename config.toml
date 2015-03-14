@@ -2,9 +2,18 @@ baseurl = "http://me.shenoy/"
 languageCode = "en-us"
 title = "Rajesh Shenoy"
 theme = "mysore"
-author = "Rajesh Shenoy"
-copyright = "©2015 Rajesh Shenoy. <a href=\"http://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
 
-[Params]
+[params]
 author = "Rajesh Shenoy"
+twitter = "brshenoy"
+facebook = "brshenoy"
 github = "shenoybr"
+instagram = "brshenoy"
+linkedin = "brshenoy"
+
+[[menu.side]]
+name = "About"
+identifier = "about"
+weight = -100
+url = "/about/"
+

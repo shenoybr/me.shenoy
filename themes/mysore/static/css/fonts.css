@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local('Abel-Regular'), url(http://fonts.gstatic.com/s/abel/v6/N59kklKPso9WzbZH9jwJSg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arapey Regular'), local('Arapey-Regular'), url(http://fonts.gstatic.com/s/arapey/v5/70NHEhnB-ZlzsDpQLtboKA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Arapey Italic'), local('Arapey-Italic'), url(http://fonts.gstatic.com/s/arapey/v5/atOvJ76eT_9tVfcNjjnfrPesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
