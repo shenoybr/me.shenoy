@@ -1,3 +1,6 @@
 [submodule "themes/hyde"]
 	path = themes/hyde
 	url = https://github.com/spf13/hyde
+[submodule "mysore"]
+	path = mysore
+	url = https://github.com/shenoybr/mysore

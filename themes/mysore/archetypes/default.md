@@ -1,3 +1,0 @@
-+++
-tags = ["Golang", "Software", "Development"]
-+++
