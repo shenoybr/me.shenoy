@@ -12,6 +12,12 @@ instagram = "brshenoy"
 linkedin = "brshenoy"
 
 [[menu.side]]
+name = "Home"
+identifier = "home"
+weight = -101
+url = "/"
+
+[[menu.side]]
 name = "About"
 identifier = "about"
 weight = -100

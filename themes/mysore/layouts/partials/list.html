@@ -1,0 +1,15 @@
+<div class="index">
+    <table class="table table-responsive">
+        {{ range where .Data.Pages.ByDate "Section" "post" }}
+        <tr>
+            <td class="col-md-2">
+                <h5 class="index date">{{ .Date.Format "02 Jan 2006" }}</h5>
+            </td>
+            <td>
+                <h3><a href="{{ .Permalink }}" class="link">{{ .Title }}</a></h3>
+            </td>
+        </tr>
+        {{ end }}
+    </table>
+</div>
+

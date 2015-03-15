@@ -1,15 +1,15 @@
 <div class="side-panel center-block">
-    <div class="title">
+    <div class="title text-center">
         <a href="{{ .Site.BaseUrl }}" class="link"><h1>{{ .Site.Title }}</h1></a>
     </div>
     <img src="{{ .Site.BaseUrl }}img/me.jpg" alt="selfie" title="selfie" class="center-block img-rounded selfie"/>
     {{ $currentNode := . }}
     {{ range .Site.Menus.side }}
-        <div class="about-pane">
-            <a href="{{ .Url }}" class="link"><h3>{{ .Name  }}</h3></a>
-        </div>
+    <div class="about-pane">
+        <a href="{{ .Url }}" class="link text-center"><h3>{{ .Name  }}</h3></a>
+    </div>
     {{ end }}
-    <div class="social-pane">
+    <div class="social-pane text-center">
         {{ with .Site.Params.twitter }}
         <a href="https://twitter.com/{{ . }}" class="link">
             <i class="fa fa-twitter fa-2x social-pane-button"></i>
@@ -36,12 +36,22 @@
         </a>
         {{ end }}
     </div>
+    <section class="taxonomy text-center">
+        <div>
+            <h4>Tags</h4>
+            <div>
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <a href="/tags/{{ $name | urlize }}"><h5>{{ $name }}</h5></a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
     <div class="center-block">
         <section class="copyright">
         {{ if .Site.Copyright }}
             {{.Site.Copyright | safeHtml}}
         {{ else }}
-        <p class="text-center">&copy {{ .Site.LastChange | dateFormat "2006"}} {{ .Site.Params.author }}. <a href="http://creativecommons.org/licenses/by/4.0/">Some rights reserved</a>.</p>
+        <p class="text-center">&copy {{ .Site.LastChange | dateFormat "2006"}} {{ .Site.Params.author }}. <a href="http://creativecommons.org/licenses/by-sa/4.0/">Some rights reserved</a>.</p>
         {{ end }}
         </section>
     </div>

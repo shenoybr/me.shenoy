@@ -1,8 +1,7 @@
 +++
-Categories = ["Development", "GoLang"]
 Description = ""
-Tags = ["Development", "golang"]
-date = "2015-03-03T08:51:27-05:00"
+Tags = ["Development", "Golang"]
+date = "2015-03-01T08:51:27-05:00"
 menu = "main"
 slug = "first"
 title = "first"

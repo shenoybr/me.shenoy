@@ -6,10 +6,12 @@ slug = "about"
 
 +++
 
-Backend Engineer at [Timehop](http://timehop.com). 
+Backend Engineer at [Timehop](http://timehop.com).
 
-Hacker, tinkerer, listener and learner. 
+Hacker, tinkerer, listener and learner.
 
-Biker and [HOG](https://members.hog.com/) Member. 
+Biker and [HOG](https://members.hog.com/) Member.
 
-Politically independent. Proud Citizen of India.
+Sarcasm central. Buffoon.
+
+Politically independent. Proud Indian.

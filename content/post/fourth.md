@@ -1,8 +1,7 @@
 +++
-Categories = ["Opinions"]
 Description = ""
 Tags = ["Opinions"]
-date = "2015-03-03T08:51:27-05:00"
+date = "2015-03-04T08:51:27-05:00"
 menu = "main"
 slug = "fourth"
 title = "fourth"

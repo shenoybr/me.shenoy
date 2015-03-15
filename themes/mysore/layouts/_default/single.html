@@ -1,19 +1,48 @@
 {{ partial "header.html" . }}
 <div class="container-fluid">
+    <nav>
+        <ul class="pager">
+            <li class="previous">
+            {{ if .PrevInSection }}
+                <a href="{{ .PrevInSection.Permalink }}#" class="link"><span aria-hidden="true">&larr;</span> Older</a>
+            {{ else }}
+                <a href="{{ .Site.BaseUrl }}#" class="link"><span aria-hidden="true">&larr;</span> Older</a>
+            {{ end }}
+            </li>
+            <li class="home"><a href="{{ .Site.BaseUrl }}" class="link"><span aria-hidden="true"></span> Home </a></li>
+            <li class="next">
+            {{ if .NextInSection }}
+                <a href="{{ .NextInSection.Permalink }}" class="link">Newer <span aria-hidden="true">&rarr;</span></a>
+            {{ else }}
+                <a href="{{ .Site.BaseUrl }}#" class="link"><span aria-hidden="true">&larr;</span> Older</a>
+            {{ end }}
+            </li>
+        </ul>
+    </nav>
     <div class="row">
-        <div class="col-md-3">
-        {{ partial "sidebar.html" . }}
-        </div>
-        <div class="col-md-9">
-            <div class="single-header">
+        <div class="col-md-12">
+            <div class="single-header text-center">
+                <hr />
                 <h3>{{ .Title }}</h3>
+                <h6>{{ .FuzzyWordCount }} words &#183; {{ .ReadingTime }} minutes</h6>
                 <hr />
             </div>
-            <div class="single-content">
+            <div class="single-content text-justify">
                 {{ .Content }}
             </div>
         </div>
     </div>
 </div>
+<footer>
+    <div class="footer">
+        <section class="copyright">
+        {{ if .Site.Copyright }}
+            {{.Site.Copyright | safeHtml}}
+        {{ else }}
+        <p class="text-center">&copy {{ .Site.LastChange | dateFormat "2006"}} {{ .Site.Params.author }}. <a href="http://creativecommons.org/licenses/by-sa/4.0/">Some rights reserved. <img alt="license" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
+        {{ end }}
+        </section>
+    </div>
+</footer>
 {{ partial "footer.html" . }}
 

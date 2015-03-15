@@ -1,3 +1,11 @@
+.about-pane {
+    padding-top: 5px;
+}
+
+.about-pane h3 {
+    margin: 5px 0px 0px 0px;
+}
+
 a:link,a:active,a:visited {
     color: #999999;
     text-decoration: none;
@@ -8,20 +16,9 @@ a:hover,a:focus {
     text-decoration: none;
 }
 
-.side-panel {
-    margin-top: 40px;
-}
-
-.social-pane {
+.copyright {
+    font-size: 14px;
     padding-top: 10px;
-    margin: auto;
-    float: none;
-    text-align: center;
-}
-
-.social-pane-button {
-    margin-right: 10px;
-    font-color: gray;
 }
 
 .link:link {
@@ -49,37 +46,139 @@ a:hover,a:focus {
     text-decoration: none;
 }
 
+.side-panel {
+    margin-top: 40px;
+}
+
+.social-pane {
+    float: none;
+    margin-top: 20px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.social-pane-button {
+    font-color: gray;
+    padding-right: 10px;
+}
+
 .title {
     float: none;
     margin: auto;
-    text-align: center;
-}
-
-.about-pane {
-    padding-top: 10px;
-    text-align: center;
 }
 
 .selfie {
     margin-top: 30px;
 }
 
-.copyright {
+.pages-header {
+    font-weight: bold;
+}
+
+.pages-content {
+    font-size: 20px;
     padding-top: 10px;
-    font-size: 14px;
+}
+
+.index.date {
+    color: #999999;
+    display: inline;
+}
+
+.index h3 {
+    display: inline;
+}
+
+.index table {
+    margin-top: 80px;
+    vertical-align: middle;
+}
+
+.index .table>tbody>tr>td {
+    border-top: none;
+    vertical-align: middle;
+}
+
+.table-responsive {
+    border: none;
+}
+
+.pager {
+    margin: 10px 0px;
 }
 
 .single-header {
-    text-align: center;
+    font-weight: bold;
+}
+
+.single-header hr {
+    margin: 10px 0px;
+}
+
+.single-header h6 {
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+.single-header h3 {
+    margin-top: 5px;
 }
 
 .single-content {
+    font-size: 18px;
     padding-top: 10px;
-    text-align: center;
-    font-size: 20px;
+}
+
+.taxonomy {
+    margin-top: 20px;
+}
+
+.taxonomy div {
+    width: 75%;
+    margin: auto;
+}
+
+.taxonomy h5 {
+    display: inline;
+    margin: auto 3px;
+}
+
+.taxonomy h4 {
+    margin: 4px auto;
+}
+
+@media screen and (max-width:800px) { 
+    .index table {
+        margin-top: 10px;
+    }
+    .index h3 {
+        display: inline;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .index h4 {
+        display: inline;
+        font-size: 16px;
+        padding: 5px 0px 0px 0px;
+    }
+    .index .table>tbody>tr>td {
+        padding-right: 0px;
+    }
+    .index div {
+        padding-left: 0px; 
+    }
+    .table>tbody>tr>td {
+        display: block;
+        padding-bottom: 5px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .taxonomy {
+        margin-top: 5px;
+    }
 }
 
 body {
-    font-family: 'Abel', 'Arapey', Verdana;
     color: #333333;
+    font-family: 'Abel', 'Arapey', Verdana;
 }
