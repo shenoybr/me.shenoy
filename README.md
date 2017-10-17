@@ -1,3 +1,0 @@
-# me.shenoy
-
-Blag

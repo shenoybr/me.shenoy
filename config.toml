@@ -1,25 +1,61 @@
-baseurl = "http://me.shenoy/"
-languageCode = "en-us"
-title = "Rajesh Shenoy"
-theme = "mysore"
+## Basic Configuration
+baseurl = "https://shenoybr.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
 
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Rajesh Shenoy"
+title = "Rajesh Shenoy"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
 author = "Rajesh Shenoy"
-twitter = "brshenoy"
-facebook = "brshenoy"
+#intro = "Developer"
+description = "Backend Engineer at [Spotify](http://www.spotify.com)<br/>Previously [Timehop](http://www.timehop.com), [J P Morgan](http://www.jpmorgan.com) and [Garmin](http://www.garmin.com)."
+#authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Coding, Tabla and random musings."
+keywords = "rajesh,shenoy,java,golang,tabla"
+
+## Social Accounts
+[params.social]
 github = "shenoybr"
-instagram = "brshenoy"
 linkedin = "brshenoy"
+twitter = "brshenoy"
+stackoverflow = "800415/raj"
 
-[[menu.side]]
-name = "Home"
-identifier = "home"
-weight = -101
-url = "/"
+## Extras
+[params.extra]
+copyright = "© 2016. Rajesh Shenoy. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
 
-[[menu.side]]
-name = "About"
-identifier = "about"
-weight = -100
-url = "/about/"
-
+## Main Menu
+##[[menu.main]]
+##    name = "blog"
+##    weight = 100
+##    identifier = "blog"
+##    url = "/blog/"
+[[menu.main]]
+    name = "tabla"
+    identifier = "tabla"
+    weight = 200
+    url = "/tabla/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
