@@ -279,3 +279,39 @@ Notes:
 | 2      | TeTe  | GheNa | TuNa  | GheNa |
 | 0      | TeTe  | GheNa | GheNa | TeTe  |
 | 3      | GheNa | GheNa | TuNa  | GheNa |
+
+#### Variation 29
+
+|        |  1    | 2     | 3     | 4     |
+|--------|-------|-------|-------|-------|
+| +      | GheNa | DhaTe | TeGhe | NaDha |
+| 2      | TeTe  | GheNa | TuNa  | GheNa |
+| 0      |       | GheNa | TuNa  | GheNa | 
+| 3      |       | GheNa | TuNa  | GheNa |
+
+#### Variation 30
+
+|        |  1    | 2     | 3     | 4     |
+|--------|-------|-------|-------|-------|
+| +      | GheNa | DhaTe | TeGhe | NaDha |
+| 2      | TeTe  | GheNa | TuNa  | GheNa |
+| 0      | TuNa  | GheNa | GheNa | TuNa  |
+| 3      | GheNa | GheNa | TuNa  | GheNa |
+
+#### Variation 31
+
+|        |  1    | 2     | 3     | 4     |
+|--------|-------|-------|-------|-------|
+| +      | GheNa | DhaTe | TeGhe | NaDha |
+| 2      | TeTe  | GheNa | TuNa  | GheNa |
+| 0      | GheNa | TuNa  | GheNa | GheNa |
+| 3      | TuNa  | GheNa | TuNa  | GheNa |
+
+#### Variation 32
+
+|        |  1    | 2     | 3     | 4     |
+|--------|-------|-------|-------|-------|
+| +      | GheNa | DhaTe | TeGhe | Na-   |
+| 2      | TeTe  | GheNa | TeTe  | GheNa |
+| 0      | GheNa | DhaTe | TeGhe | NaDha |
+| 3      | TeTe  | GheNa | TuNa  | GheNa |
